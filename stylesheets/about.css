@@ -282,7 +282,7 @@ body {
 #header .nav-list-mobile ul li a {
 	display: flex;
 	justify-content: space-evenly;
-	font-size: 4vw;
+	font-size: 20px;
 	padding: 0vw 5vw;
 }
 #header .nav-list-mobile ul a:after {
@@ -295,7 +295,7 @@ body {
 		justify-content: space-evenly;
 		font-size: 4.5vw;
 		padding: 0vw 3.5vw;
-		height: 4vh;
+		/* height: 4vh; */
 	}
 }
 

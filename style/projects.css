@@ -311,11 +311,21 @@ body {
 #header .nav-list-mobile ul li a {
 	display: flex;
 	justify-content: space-evenly;
-	font-size: 2.8vw;
+	font-size: 4vw;
 	padding: 0vw 5vw;
 }
 #header .nav-list-mobile ul a:after {
 	display: none;
+}
+
+@media only screen and (max-width: 40rem) {
+	#header .nav-list-mobile ul li a {
+		display: flex;
+		justify-content: space-evenly;
+		font-size: 4.5vw;
+		padding: 0vw 3.5vw;
+		height: 4vh;
+	}
 }
 
 @media only screen and (max-width: 80rem) {

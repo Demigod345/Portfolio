@@ -63,16 +63,16 @@ p {
 	background-color: crimson;
 }
 .brand h1 {
-	display : flex;
+	/* display : flex;
 	justify-content: space-evenly;
-	align-items: center;
+	align-items: center; */
 	font-size: 3rem;
 	text-transform: uppercase;
 	color: white;
 }
 .brand h1 span {
 	color: crimson;
-	align-items: center;
+	/* align-items: center; */
 }
 body {
 background-image: url("../assets/background_index.svg");
